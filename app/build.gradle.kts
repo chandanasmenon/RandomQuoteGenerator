@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     id("kotlin-kapt")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -61,6 +62,17 @@ dependencies {
     // Dependency Injection
     implementation(libs.dagger)
     kapt(libs.dagger.compiler)
+
+    // Firebase
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.google.firebase.auth)
+
+    // AndroidX Credentials API
+    implementation(libs.androidx.credentials.v120)
+    implementation(libs.androidx.credentials.play.services.auth.v120)
+
+    // Google Identity Library
+    implementation(libs.googleid)
 
     // Room Database
     implementation(libs.androidx.room.runtime)

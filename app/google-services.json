@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "324007015657",
+    "project_id": "quotecrate-37585",
+    "storage_bucket": "quotecrate-37585.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324007015657:android:98208e8b9f5a4ad31c6c78",
+        "android_client_info": {
+          "package_name": "com.chandana.randomquotegenerator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324007015657-ucg33eh8lph5c9smacl608fr59afagdj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chandana.randomquotegenerator",
+            "certificate_hash": "7000328fa3235b897d3e220be223cfde794d0c0e"
+          }
+        },
+        {
+          "client_id": "324007015657-1v73i8g1u18qcbm76tr9trjd1d3f3ei4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIC7YnzlZLQbGxvDtcAee4ifW_EXbGiCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324007015657-1v73i8g1u18qcbm76tr9trjd1d3f3ei4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
